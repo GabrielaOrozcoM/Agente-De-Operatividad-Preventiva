@@ -1,15 +1,29 @@
 # Agente-De-Operatividad-Preventiva
 Este es un panel de control inteligente para la gestión de flotas, diseñado con un enfoque en la experiencia de usuario (UX) y visualización de datos en tiempo real. El proyecto integra un sistema de monitoreo de disponibilidad de unidades y un asistente de IA (Chatbot) para la optimización de rutas.
 
-##  Características Principales
 
-* **Visualización de Disponibilidad**: Gráfico circular animado (SVG) que muestra el 97% de disponibilidad de la flota.
-* **Directorio de Unidades**: Lista interactiva de vehículos con estados de ruta, carga y descarga.
-* **Fichas de Análisis**: Acceso rápido a métricas de Ahorro Predictivo, Riesgo de Merma y Alertas activas.
-* **Chatbot IA**: Espacio integrado para comunicación directa con un asistente inteligente para la toma de decisiones.
-* **Acciones Sugeridas**: Tarjetas con diseño *Glassmorphism* que priorizan tareas de mantenimiento y optimización.
 
+##Inteligencia Artificial Integrada
+
+A diferencia de un dashboard tradicional, toda la columna derecha del sistema es **dinámica y generada por IA** basándose en la telemetría de la flota:
+
+* **Indicador de Disponibilidad Inteligente**: El círculo central no solo mide el estado actual, sino que proyecta una **Disponibilidad de Flota del 97%** analizando patrones de tráfico, tiempos de carga y eficiencia de combustible.
+* **Fichas de Análisis Predictivo**: 
+    * **Ahorro Predictivo IA**: Cálculos en tiempo real sobre la reducción de costos operativos mediante optimización de rutas.
+    * **Riesgo de Merma Activo**: Detección temprana de posibles anomalías en la cadena de frío o integridad de la carga.
+* **Asistente de IA (Chatbot)**: Un canal de comunicación directa con el modelo de lenguaje (LLM) que procesa la conexión de datos de la flota para responder consultas operativas complejas.
+* **Acciones Sugeridas por IA**: 
+    * El sistema recopila datos y prioriza tareas mediante algoritmos de aprendizaje automático (*Machine Learning*).
+    * Genera alertas automáticas de mantenimiento preventivo y desvíos de ruta detectados instantáneamente.
+
+##  Características Técnicas
+
+* **UI/UX**: Interfaz optimizada para centros de control con modo oscuro para reducir la fatiga visual.
+* **Glassmorphism**: Uso de transparencias y desenfoques Gaussianos en las tarjetas de sugerencias para una estética moderna y limpia.
+* **Visualización SVG**: Gráficos vectoriales con animaciones fluidas para representar métricas críticas de forma clara.
+* 
 ## Tecnologías Utilizadas
+
 
 * **HTML5**: Estructura semántica avanzada.
 * **CSS3**: 
