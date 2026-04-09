@@ -1,4 +1,11 @@
 # Agente-De-Operatividad-Preventiva
+
+## ⚠️ Notas de Visualización
+
+> **Importante:** Debido a los tiempos de entrega del proyecto, el diseño **no es responsivo** actualmente. 
+> 
+> Para una experiencia visual correcta y para apreciar la alineación de los componentes de IA (círculo de disponibilidad y fichas laterales), se recomienda encarecidamente visualizar el dashboard en una resolución de **1280 x 800 px**.
+
 Este es un panel de control inteligente para la gestión de flotas, diseñado con un enfoque en la experiencia de usuario (UX) y visualización de datos en tiempo real. El proyecto integra un sistema de monitoreo de disponibilidad de unidades y un asistente de IA (Chatbot) para la optimización de rutas.
 
 
