@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CENTRO DE CONTROL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="layout-principal">
+
+        <aside class="sidebar">
+            <nav class="nav-principal">
+                <a href="#" class="nav-item activo" title="Inicio">
+                    <img src="menu lateral/chimenea-de-la-casa.png" alt="">
+                </a>
+                <a href="#" class="nav-item" title="Flota">
+                    <img src="menu lateral/movimiento-de-camiones.png" alt="Flota" class="icono-nav">
+                </a>
+                <a href="#" class="nav-item" title="Alertas">
+                    <img src="menu lateral/luz-emergencia-encendida.png" alt="Alertas" class="icono-nav">
+                </a>
+                <a href="#" class="nav-item" title="Agenda">
+                    <img src="menu lateral/calendario-lineas-boligrafo.png" alt="Agenda" class="icono-nav">
+                </a>
+                <a href="#" class="nav-item" title="Mantenimiento">
+                    <img src="menu lateral/llave-inglesa-alternativa.png" alt="Mantenimiento" class="icono-nav">
+                </a>
+            </nav>
+        </aside>
+
+        <main class="contenido-principal">
+            
+            <div class="columna-izquierda">
+                
+                <header class="header-dashboard">
+                    <h1 class="titulo-pagina">CENTRO DE CONTROL</h1>
+                    <p class="fecha-dia" id="fecha-actual">Cargando fecha...</p>
+                    <p class="saludo-usuario">Hello, Ashley.</p>
+                    <h2 class="subtitulo-directorio">Directorio de Flota</h2>
+                </header>
+
+                <section class="panel-unidades">
+                    <div class="contenedor-busqueda">
+                        <input type="text" placeholder="Barra de Búsqueda" class="barra-busqueda">
+                        <span class="icono-busqueda"></span>
+                    </div>
+
+                    <div class="lista-unidades">
+                        <div class="tarjeta-unidad">
+                            <div class="imagen-vehiculo"><img src="src/Dongfeng-Mini-Van-Cargo-1024x597.jpg" alt="Vehículo"></div>
+                            <div class="info-vehiculo">
+                                <div class="etiqueta-color bg-verde"></div>
+                                <div class="detalles-texto">
+                                    <span class="tipo">Furgoneta Mediana</span>
+                                    <span class="placa">ABC-123</span>
+                                    <span class="estado">En Ruta</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta-unidad">
+                            <div class="imagen-vehiculo"><img src="src/traxion-kenworth-1024x597.jpg"Vehículo"></div>
+                            <div class="info-vehiculo">
+                                <div class="etiqueta-color bg-rojo"></div>
+                                <div class="detalles-texto">
+                                    <span class="tipo">Camión Rígido</span>
+                                    <span class="placa">XYZ-789</span>
+                                    <span class="estado">En Descarga</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta-unidad">
+                            <div class="imagen-vehiculo"><img src="src/Web_Photo_Editor-2021-07-22T151834.570.jpg"Vehículo"></div>
+                            <div class="info-vehiculo">
+                                <div class="etiqueta-color bg-naranja"></div>
+                                <div class="detalles-texto">
+                                    <span class="tipo">Tráiler Frigorífico</span>
+                                    <span class="placa">LMN-456</span>
+                                    <span class="estado">En Carga</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta-unidad">
+                            <div class="imagen-vehiculo"><img src="src/LIPU-Traxion.jpg" alt="Vehículo"></div>
+                            <div class="info-vehiculo">
+                                <div class="etiqueta-color bg-verde"></div>
+                                <div class="detalles-texto">
+                                    <span class="tipo">Coche Flota</span>
+                                    <span class="placa">DEF-001</span>
+                                    <span class="estado">En Base</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta-unidad">
+                            <div class="imagen-vehiculo"><img src="src/JAC-Sunray-City-Cargo-2026-a-1024x597.jpg" alt="Vehículo"></div>
+                            <div class="info-vehiculo">
+                                <div class="etiqueta-color bg-verde"></div>
+                                <div class="detalles-texto">
+                                    <span class="tipo">Furgoneta Pequeña</span>
+                                    <span class="placa">GHI-222</span>
+                                    <span class="estado">En Ruta</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta-unidad">
+                            <div class="imagen-vehiculo"><img src="src/TRaxion-operadores-1024x597.jpg" alt=""></div>
+                            <div class="info-vehiculo">
+                                <div class="etiqueta-color bg-rojo"></div>
+                                <div class="detalles-texto">
+                                    <span class="tipo">Camión Lona</span>
+                                    <span class="placa">JKL-333</span>
+                                    <span class="estado">En Descarga</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div> 
+
+
+        <div class="panel-indicadores-derecha">
+        
+        <div class="contenedor-indicadores-superiores">
+            
+            <div class="fichas-laterales">
+                <a href="#" class="ficha ficha-ahorro">
+                    <div class="icono-ficha"><img src="Panel derecho/usd-circulo.png" alt=""></div>
+                    <span>Ahorro Predictivo IA</span>
+                </a>
+                <a href="#" class="ficha ficha-riesgo">
+                    <div class="icono-ficha"><img src="Panel derecho/verificacion-de-escudo.png" alt="Escudo"></div>
+                    <span>Riesgo de Merma</span>
+                </a>
+                <a href="#" class="ficha ficha-alerta">
+                    <div class="icono-ficha"><img src="Panel derecho/advertencia-de-motor.png" alt="!"></div>
+                    <span>Alertas (2)</span>
+                </a>
+            </div>
+
+            <div class="circulo-principal">
+                <svg width="260" height="260" viewBox="0 0 260 260" class="svg-animado">
+                    <path id="ruta-texto" d="M 130, 15 A 115 115 0 1 1 129.9 15" fill="none" />
+                    <text class="texto-giratorio">
+                        <textPath href="#ruta-texto" startOffset="0" text-anchor="middle">
+                            DISPONIBILIDAD DE FLOTA • DISPONIBILIDAD DE FLOTA • 
+                        </textPath>
+                    </text>
+                    <circle cx="130" cy="130" r="90" fill="none" stroke="#374151" stroke-width="12" />
+                    <circle cx="130" cy="130" r="90" fill="none" stroke="#E0FF3B" stroke-width="12" stroke-linecap="round" class="barra-progreso" />
+                </svg>
+
+                <div class="contenido-central-circulo">
+                    <span class="numero-porcentaje">97%</span>
+                    <div class="icono-camion-centro">
+                        <img src="Panel derecho/frente-de-camion.png" alt="Camión">
+                    </div>
+                </div>
+            </div>
+
+        </div> <div class="seccion-interactiva-derecha">
+            
+            <div id="contenedor-chatbot-ia" class="chatbot-placeholder">
+                <div class="chatbot-simulado" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; padding: 20px;">
+                    <div class="bot-status" style="background: #E0FF3B; width: 15px; height: 15px; border-radius: 50%; box-shadow: 0 0 10px #E0FF3B; margin-bottom: 10px;"></div>
+                    <p style="color: #fff; font-weight: bold; margin-bottom: 5px;">Asistente Inteligente Gemini</p>
+                    <span class="status-text" style="color: #9ca3af; font-size: 0.8rem; margin-bottom: 20px;">Optimización de flota en tiempo real</span>
+                    <a href="https://gemini.google.com/gem/1MxgQKnUPrrs85gjZakCyP_hOJ7XoaCNW" 
+                    target="_blank" 
+                    style="background-color: #E0FF3B; color: #111827; padding: 12px 24px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 0.9rem; transition: transform 0.2s;">
+                    CONSULTAR AGENTE IA →
+                    </a>
+                </div>
+</div>
+
+            <div class="acciones-sugeridas-container">
+                <h3 class="titulo-sugerencias">Acciones Sugeridas ✨</h3>
+                
+                <div class="carrusel-sugerencias">
+                    <div class="tarjeta-sugerencia riesgo-alto">
+                        <div class="sugerencia-header">
+                            <span class="dot"></span>
+                            <span class="nivel">Prioridad Alta</span>
+                        </div>
+                        <p>Revisar ruta de Camión JKL-333: Desvío detectado.</p>
+                    </div>
+
+                    <div class="tarjeta-sugerencia riesgo-medio">
+                        <div class="sugerencia-header">
+                            <span class="dot"></span>
+                            <span class="nivel">Optimización</span>
+                        </div>
+                        <p>Oportunidad de ahorro: Cargar combustible en estación central.</p>
+                    </div>
+
+                    <div class="tarjeta-sugerencia riesgo-bajo">
+                        <div class="sugerencia-header">
+                            <span class="dot"></span>
+                            <span class="nivel">Mantenimiento</span>
+                        </div>
+                        <p>Furgoneta GHI-222 requiere cambio de aceite en 2 días.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </div> 
+    
+    
+    </main>
+    </div> 
+
+
+
+
+    <script>
+        function obtenerFechaActual() {
+            const fecha = new Date();
+            const diasSemana = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const meses = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+            
+            const diaNombre = diasSemana[fecha.getDay()];
+            const diaNumero = fecha.getDate();
+            const mesNombre = meses[fecha.getMonth()];
+            
+            let sufijo = 'th';
+            if (diaNumero === 1 || diaNumero === 21 || diaNumero === 31) sufijo = 'st';
+            else if (diaNumero === 2 || diaNumero === 22) sufijo = 'nd';
+            else if (diaNumero === 3 || diaNumero === 23) sufijo = 'rd';
+
+            const fechaFormateada = `${diaNombre}, ${diaNumero}${sufijo} ${mesNombre}`;
+            document.getElementById('fecha-actual').textContent = fechaFormateada;
+        }
+        obtenerFechaActual();
+    </script>
+
+</body>
+</html>
